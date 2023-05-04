@@ -1,0 +1,49 @@
+
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: azure;
+}
+.card-container{
+    width: 700px;
+    height: 600px;
+    margin:100px auto ;
+    background-color:black;
+    padding: 25px;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+   margin: auto;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.card-image img{
+width: 200px;
+height: 200px;
+outline: 5px solid red;
+
+}
+
+.card-detail{
+   color: white;
+   text-align: center;
+
+}
+.card-detail h2{
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.card-detail .designation{
+    color: darkred;
+    font-weight: 700;
+    text-align: center;
+}
+.card-detail p{
+    text-align: justify;
+    line-height: 30px;
+}
+
+

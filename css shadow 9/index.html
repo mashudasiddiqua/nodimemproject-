@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow box</title>
+    <style>
+        body{
+            background-color: rgb(red, green, blue);
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background-color: blue;
+            box-shadow:5px 5px 20px black ;
+        }
+        .box-one{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            box-shadow: inset -5px 5px 20px rgba(0, 255, 255, 0.863),5px -5px 20px rgba(0, 255, 255, 0.863) ;
+            overflow:scroll; 
+        }
+        .box-two{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background-color: blueviolet;
+            box-shadow: 5px -5px 20px rgba(220, 20, 60, 0.76),-5px 5px 20px rgba(210, 105, 30, 0.801); 
+        }
+        .box-three{
+            width: 300px;
+            height: 300px;
+            margin: 100px auto;
+            background-color: aquamarine;
+            box-shadow: 5px -5px 20px rgba(220, 20, 60, 0.918),-5px 5px 20px rgba(220, 20, 60, 0.87);  
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box-one">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ducimus quos aut id iure aspernatur repellat modi ullam laudantium necessitatibus itaque eaque, hic voluptatum laborum a voluptate reprehenderit corrupti quas eos, maiores officiis? Aperiam beatae dolorum a culpa, nobis asperiores est aut eveniet quos inventore quae nihil qui unde fugiat assumenda nisi, tenetur eum, vero placeat expedita molestias? Voluptas corporis culpa consequuntur nisi, exercitationem molestiae laudantium rerum facere dolores deleniti, ullam necessitatibus est voluptate eius? Facere earum quae nesciunt eveniet commodi itaque quibusdam impedit velit neque doloribus, nemo et consequuntur odit iure ratione repudiandae doloremque! Odit reprehenderit atque minus amet!</p>
+    </div>
+    <div class="box-two"></div>
+    <div class="box-three"></div>
+    
+</body>
+</html>
